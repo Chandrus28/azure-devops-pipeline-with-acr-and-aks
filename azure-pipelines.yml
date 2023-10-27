@@ -5,31 +5,29 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'Towards-AzurePortal'
-    scriptType: 'bash'
+    azureSubscription: 'Azure for Students(12b1a7c3-4b2a-415e-9293-e7bb63373b8e)'
+    scriptType: 'batch'
     scriptLocation: 'inlineScript'
     inlineScript: |
       docker build -t mylabacr13.azurecr.io/web-game:tag 2048-game
       az acr login -n mylabacr13
       docker push mylabacr13.azurecr.io/web-game:tag
-
+  
 - script: cat 01_kubernetes_aks/app-deploy.yaml
-
 - task: Kubernetes@1
   inputs:
     connectionType: 'Azure Resource Manager'
-    azureSubscriptionEndpoint: 'Towards-AzurePortal'
-    azureResourceGroup: 'TestLab-RG'
-    kubernetesCluster: 'testlab-aks'
+    azureSubscriptionEndpoint: 'Azure for Students(12b1a7c3-4b2a-415e-9293-e7bb63373b8e)'
+    azureResourceGroup: 'MyLab-RG'
+    kubernetesCluster: 'mylab-aks'
     namespace: 'default'
     command: 'apply'
     useConfigurationFile: true
     configuration: '01_kubernetes_aks'
     secretType: 'dockerRegistry'
     containerRegistryType: 'Azure Container Registry'
-    azureSubscriptionEndpointForSecrets: 'Towards-AzurePortal'
-    azureContainerRegistry: 'mylabacr13.azurecr.io'
+    azureSubscriptionEndpointForSecrets: 'Azure for Students(12b1a7c3-4b2a-415e-9293-e7bb63373b8e)'
+    azureContainerRegistry: 'mylabacr131.azurecr.io'
     forceUpdate: false
