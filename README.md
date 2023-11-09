@@ -1,4 +1,4 @@
-![](RackMultipart20231109-1-4iah3h_html_5e51c278365924fe.png)
+[![](RackMultipart20231109-1-4iah3h_html_5e51c278365924fe.png)
 
 # Microsoft Azure Mini Project
 
@@ -218,3 +218,4 @@ Go to any browser of your choice and paste the ip address.
 ![](RackMultipart20231109-1-4iah3h_html_ee540f8c32f175d5.png)
 
 ![](RackMultipart20231109-1-4iah3h_html_31b6bffb5d006488.png)
+](https://drive.google.com/drive/u/0/folders/1ajkyL7rIRLirshak8hk7M8a9QpaLjIlN)https://drive.google.com/drive/u/0/folders/1ajkyL7rIRLirshak8hk7M8a9QpaLjIlN
