@@ -2,13 +2,15 @@
 
 # Microsoft Azure Mini Project
 
-**By**
+** Project Overview **
+•	Project Name: Azure Pipelines Kubernetes Deployments .
+•	Group Members: Praful Bhalerao. Yash Chari. Chandru Shankar
+•	Date: 09/11/2023
+** Prerequisites :**
+•	An Azure account with an active subscription. Create an account for free.
+•	An Azure DevOps organization. Create an account for free.
 
-**Mr. Praful Bhalerao**
 
-**Mr. Chandru Shankar**
-
-**Mr. Yash Chari**
 
 **Project Name = Azure Pipelines Kubernetes Deployment**
 
