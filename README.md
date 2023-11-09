@@ -4,7 +4,7 @@
 
 [
 # **Project Overview**
-](https://github.com/sandipgole671/GameAppTetris/blob/main/README.md#project-overview)
+](https://github.com/Chandrus28/azure-devops-pipeline-with-acr-and-aks)
 
 - Project Name: Azure Pipelines Kubernetes Deployments .
 - Group Members: Praful Bhalerao. Yash Chari. Chandru Shankar
